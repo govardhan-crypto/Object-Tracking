@@ -4,7 +4,7 @@ import cv2
 redLower = (157, 93, 203)
 redUpper = (179, 255, 255)
 
-camera=cv2.VideoCapture(1)
+camera=cv2.VideoCapture(0) # if use another web cam  change 0 to 1 
 
 while True:
 
